@@ -15,3 +15,14 @@ export type Cart = {
   id: string,
   items: CartItem[],
 }
+
+
+export type CartItemUpdate = {
+  productId: string,
+  count: number
+}
+
+export type CartUpdate = {
+  id: string,
+  items: CartItemUpdate[],
+}
